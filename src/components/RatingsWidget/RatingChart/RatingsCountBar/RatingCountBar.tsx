@@ -1,9 +1,9 @@
 import { memo } from "react";
 import { styled } from "styled-components";
-import { myTheme } from "../../../theme";
+import { myTheme } from "../../../../theme";
 import PropTypes from "prop-types";
-import FillBarComponent from "../FillBar/FillBar";
-import RatingIcon from "../RatingIcon/RatingIcon";
+import FillBarComponent from "../../../FillBar/FillBar";
+import RatingIcon from "../../../RatingIcon/RatingIcon";
 
 /**
  * RatingCountBar

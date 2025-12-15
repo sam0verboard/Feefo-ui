@@ -1,14 +1,14 @@
 import { render, screen } from "@testing-library/react";
 import RatingCountBar from "./RatingCountBar";
 
-jest.mock("../FillBar/FillBar", () => ({
+jest.mock("../../../FillBar/FillBar", () => ({
   __esModule: true,
   default: ({ percent }: { percent: number }) => (
     <div aria-label={`fill ${percent}%`} />
   ),
 }));
 
-jest.mock("../RatingIcon/RatingIcon", () => ({
+jest.mock("../../../RatingIcon/RatingIcon", () => ({
   __esModule: true,
   default: ({ rating }: { rating: string }) => <div>{rating}</div>,
 }));

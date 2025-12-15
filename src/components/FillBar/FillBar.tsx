@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { myTheme } from "../../../theme";
+import { myTheme } from "../../theme";
 import PropTypes from "prop-types";
 import { memo } from "react";
 

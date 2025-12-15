@@ -1,7 +1,7 @@
 import { memo } from "react";
 import styled from "styled-components";
-import { ReactComponent as FeefoIcon } from "../../../assets/icons/feefo-icon.svg";
-import { myTheme } from "../../../theme";
+import { ReactComponent as FeefoIcon } from "../../../../assets/icons/feefo-icon.svg";
+import { myTheme } from "../../../../theme";
 
 /**
  * RatingsWidgetTitle
