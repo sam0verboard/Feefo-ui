@@ -40,7 +40,6 @@ function App() {
     height: 30vw;
   `;
 
-  /* Typography */
   const Heading = styled.h1`
     color: ${myTheme.colors.lighter};
   `;
