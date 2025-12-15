@@ -1,7 +1,7 @@
 import { memo } from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
-import { myTheme } from "../../../theme";
+import { myTheme } from "../../../../theme";
 /**
  * QualitativeRating
  * Displays a short piece of qualitative description of a numeric rating.

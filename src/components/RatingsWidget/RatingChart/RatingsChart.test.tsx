@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import RatingsChart from "./RatingsChart";
 
-jest.mock("../RatingsCountBar/RatingCountBar", () => ({
+jest.mock("./RatingsCountBar/RatingCountBar", () => ({
   __esModule: true,
   default: ({
     rating,

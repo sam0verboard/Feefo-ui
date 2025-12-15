@@ -1,8 +1,8 @@
 import { memo } from "react";
-import QualitativeRating from "../QualitativeRating/QualitativeRating";
-import RatingBar from "../RatingBar/RatingBar";
-import RatingsWidgetTitle from "../RatingsWidgetTitle/RatingsWidgetTitle";
-import RatingText from "../RatingText/RatingText";
+import QualitativeRating from "./QualitativeRating/QualitativeRating";
+import RatingBar from "./RatingBar/RatingBar";
+import RatingsWidgetTitle from "./RatingsWidgetTitle/RatingsWidgetTitle";
+import RatingText from "./RatingText/RatingText";
 import { styled } from "styled-components";
 import { myTheme } from "../../../theme";
 import PropTypes from "prop-types";

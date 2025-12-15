@@ -2,8 +2,8 @@ import { memo } from "react";
 
 import PropTypes from "prop-types";
 import styled from "styled-components";
-import { myTheme } from "../../../theme";
-import { ReactComponent as RatingCountBarIcon } from "../../../assets/icons/feefo-star-grey.svg";
+import { ReactComponent as RatingCountBarIcon } from "../../assets/icons/feefo-star-grey.svg";
+import { myTheme } from "../../theme";
 
 /**
  * RatingIcon
